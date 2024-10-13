@@ -1,1 +1,2 @@
-Monkey
+local Key = "Monkey"
+return Key
