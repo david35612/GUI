@@ -1,13 +1,13 @@
 -- This uses the Orion GUI Library - all docs can be found at https://github.com/shlexware/Orion/blob/main/Documentation.md
 
 local EnteredKey = nil
-local Key = loadstring(game:HttpGet("pastebin.com/raw/YourPasteBinKEYLink"))() -- Enter the link to your pastebin here, replace everything in the speech marks ""
+local Key = loadstring(game:HttpGet("https://raw.githubusercontent.com/david35612/GUI/refs/heads/main/keys"))() -- Enter the link to your pastebin here, replace everything in the speech marks ""
 
 local function CheckKey()
     if EnteredKey then
         if EnteredKey == Key then 
             print("Correct Key Entered!")
-            loadstring(game:HttpGet("pastebin.com/raw/YourPasteBinLink"))() -- This will load the obfuscated code
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/david35612/GUI/refs/heads/main/Obfuscated%20Script%20without%20gui"))() -- This will load the obfuscated code
         else
             warn("That was the wrong key!") -- User did not enter the correct key
         end
